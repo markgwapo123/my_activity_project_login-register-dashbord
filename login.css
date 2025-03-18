@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(31, 34, 34);
+}
+.container{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(245, 240, 240, 0.2) inset;
+}
+.box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+label{
+    color: aliceblue;
+    font-family: verdana;
+    font-weight: 400;
+    padding-top: 20px;
+}
+input{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    color: azure;
+    outline: none;
+}
+button{
+    position: absolute;
+    left: 15%;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px 3px rgba(228, 222, 222, 0.5) inset;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px rgba(245, 240, 240, 0.2);
+    color: rgba(245, 240, 240, 0.2);
+    font-weight: bolder;
+}
+.sign{
+    position: absolute;
+    top: 121.5%;
+    left: 75%;
+    font-size: small;
+    color:#0095f6;
+}
+a{
+    color:#0095f6;
+    text-decoration:none;
+}
+.create{
+    position: absolute;
+    top: 115%;
+    left: 5%;
+    color: white;
+    font-size: small;
+}

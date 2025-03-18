@@ -1,0 +1,86 @@
+
+body{
+    background-image: url("mark.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 395px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 10px 5px rgba(239, 237, 243, 0.3)inset;
+}
+.signupform{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    text-align: center;
+    font-family: verdana;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:white;
+}
+input .form-group{
+    margin-top: 10px;
+  
+}
+input{
+    padding: 10px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: aliceblue;
+}
+button{
+    position: absolute;
+    top: 120%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-family: verdana;
+    padding: 8px 70px 8px 70px;
+    font-size: large;
+    background-color: transparent;
+    color: rgb(114, 110, 110);
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgba(231, 225, 225, 0.5)inset;
+    border-radius: 10px;
+}
+button:hover{
+    font-weight: bolder;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px 5px rgba(241, 238, 238, 0.5);
+}
+input::placeholder{
+    font-size: larger;
+}
+.new{
+    color: white;
+    padding: 15px 60px 15px 60px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(221, 218, 218, 0.2)inset;
+    font-family: verdana;
+}
+.loginpage{
+    position: absolute;
+    top: 91%;
+    left: 70%;
+}
+a{
+    color:#0095f6;
+    text-decoration:none;
+}
